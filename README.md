@@ -1,4 +1,4 @@
-# Laravel 7 隧道服務
+# Laravel 8 隧道服務
 
 引入 beyondcode 的 expose 套件來擴增把本地主機（localhost）對應到 HTTPS 公開網域的服務，讓本機電腦的測試環境直接對外提供連線，以便進行測試與偵錯。
 
@@ -20,6 +20,10 @@ $ php artisan key:generate
 ```sh
 $ php artisan migrate
 ```
+- 執行安裝 Laravel Mix 引用的依賴項目，並執行所有 Mix 任務。
+```sh
+$ npm install && npm run dev
+```
 - 執行 __Expose__ 指令的 __token__ 來使用授權金鑰連結 expose 伺服器。
 ```sh
 $ expose token [你的授權金鑰]
@@ -33,8 +37,8 @@ $ expose share [路由 URL]
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/Vn0xeC5.png)
+![](https://i.imgur.com/gs369GO.png)
 > 共享路由 URL 存取
 
-![](https://i.imgur.com/c5h7kgX.png)
+![](https://i.imgur.com/82qK9Bb.png)
 > 在瀏覽器中輸入產生的 expose 子網域 URL 一下就能連上本機電腦，非常的實用

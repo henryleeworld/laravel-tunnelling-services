@@ -28,17 +28,21 @@ $ npm install && npm run dev
 ```sh
 $ expose token [你的授權金鑰]
 ```
+- 執行 __Expose__ 指令的 __token__ 使用最近的可用 expose 伺服器。
+```sh
+$ expose default-server [expose 伺服器名稱]
+```
 - 執行 __Expose__ 指令的 __share__ 來使用隨機產生的 expose 子網域共享對路由 URL 的存取
 ```sh
-$ expose share [路由 URL]
+$ expose share [路由 URL] --subdomain=
 ```
-- 在瀏覽器中輸入產生的 expose 子網域 URL 來訪問，例如：https://ca0nhpdos7.sharedwithexpose.com。
+- 在瀏覽器中輸入產生的 expose 子網域 URL 來訪問，例如：https://6hfvk21jmw.ap-1.sharedwithexpose.com。
 
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/gs369GO.png)
+![](https://i.imgur.com/f9rBxNt.png)
 > 共享路由 URL 存取
 
-![](https://i.imgur.com/82qK9Bb.png)
+![](https://i.imgur.com/aElfBsW.png)
 > 在瀏覽器中輸入產生的 expose 子網域 URL 一下就能連上本機電腦，非常的實用

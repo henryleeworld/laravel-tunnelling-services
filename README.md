@@ -1,4 +1,4 @@
-# Laravel 8 隧道服務
+# Laravel 9 隧道服務
 
 引入 beyondcode 的 expose 套件來擴增把本地主機（localhost）對應到 HTTPS 公開網域的服務，讓本機電腦的測試環境直接對外提供連線，以便進行測試與偵錯。
 

@@ -7,7 +7,7 @@
     "require": {
         "php": "^8.0.2",
         "guzzlehttp/guzzle": "^7.5",
-        "laravel/framework": "^9.40",
+        "laravel/framework": "^9.42",
         "laravel/jetstream": "^2.12",
         "laravel/sanctum": "^2.15.1",
         "laravel/tinker": "^2.7",
@@ -16,7 +16,7 @@
     "require-dev": {
         "beyondcode/expose": "^2.4",
         "fakerphp/faker": "^1.20.0",
-        "laravel/sail": "^1.16.2",
+        "laravel/sail": "^1.16.3",
         "mockery/mockery": "^1.5.1",
         "nunomaduro/collision": "^6.3",
         "phpunit/phpunit": "^9.5.26",

@@ -7,16 +7,16 @@
     "require": {
         "php": "^8.0.2",
         "guzzlehttp/guzzle": "^7.5",
-        "laravel/framework": "^9.43",
-        "laravel/jetstream": "^2.12",
+        "laravel/framework": "^9.44",
+        "laravel/jetstream": "^2.13",
         "laravel/sanctum": "^2.15.1",
         "laravel/tinker": "^2.7",
         "livewire/livewire": "^2.10"
     },
     "require-dev": {
         "beyondcode/expose": "^2.4",
-        "fakerphp/faker": "^1.20.0",
-        "laravel/sail": "^1.16.3",
+        "fakerphp/faker": "^1.21.0",
+        "laravel/sail": "^1.16.5",
         "mockery/mockery": "^1.5.1",
         "nunomaduro/collision": "^6.3",
         "phpunit/phpunit": "^9.5.26",

@@ -7,8 +7,8 @@
     "require": {
         "php": "^8.0.2",
         "guzzlehttp/guzzle": "^7.5",
-        "laravel/framework": "^9.45",
-        "laravel/jetstream": "^2.13",
+        "laravel/framework": "^9.46",
+        "laravel/jetstream": "^2.14",
         "laravel/sanctum": "^2.15.1",
         "laravel/tinker": "^2.7",
         "livewire/livewire": "^2.10"
@@ -16,9 +16,9 @@
     "require-dev": {
         "beyondcode/expose": "^2.4",
         "fakerphp/faker": "^1.21.0",
-        "laravel/sail": "^1.16.6",
+        "laravel/sail": "^1.17.0",
         "mockery/mockery": "^1.5.1",
-        "nunomaduro/collision": "^6.3",
+        "nunomaduro/collision": "^6.4",
         "phpunit/phpunit": "^9.5.26",
         "spatie/laravel-ignition": "^1.6"
     },

@@ -20,9 +20,13 @@ $ php artisan key:generate
 ```sh
 $ php artisan migrate
 ```
-- 執行安裝 Laravel Mix 引用的依賴項目，並執行所有 Mix 任務。
+- 執行安裝 Vite 和 Laravel 擴充套件引用的依賴項目。
 ```sh
-$ npm install && npm run dev
+$ npm install
+```
+- 執行正式環境版本化資源管道並編譯。
+```sh
+$ npm run build
 ```
 - 執行 __Expose__ 指令的 __token__ 來使用授權金鑰連結 expose 伺服器。
 ```sh
@@ -36,13 +40,13 @@ $ expose default-server [expose 伺服器名稱]
 ```sh
 $ expose share [路由 URL] --subdomain=
 ```
-- 在瀏覽器中輸入產生的 expose 子網域 URL 來訪問，例如：https://cp1ypqqszq.ap-1.sharedwithexpose.com。
+- 在瀏覽器中輸入產生的 expose 子網域 URL 來訪問，例如：https://henry-lee.ap-1.sharedwithexpose.com。
 
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/xsVCfdZ.png)
+![](https://i.imgur.com/kbOlOj9.png)
 > 共享路由 URL 存取
 
-![](https://i.imgur.com/aPbkH2i.png)
+![](https://i.imgur.com/0yXQQCI.png)
 > 在瀏覽器中輸入產生的 expose 子網域 URL 一下就能連上本機電腦，非常的實用

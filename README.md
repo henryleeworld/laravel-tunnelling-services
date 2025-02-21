@@ -1,6 +1,6 @@
-# Laravel 10 隧道服務
+# Laravel 11 隧道服務
 
-引入 beyondcode 的 expose 套件來擴增把本地主機（localhost）對應到 HTTPS 公開網域的服務，讓本機電腦的測試環境直接對外提供連線，以便進行測試與偵錯。
+引入 beyondcode 的 Expose 套件來擴增把本地主機（localhost）對應到 HTTPS 公開網域的服務，讓本機電腦的測試環境直接對外提供連線，以便進行測試與偵錯。
 
 ## 使用方式
 - 把整個專案複製一份到你的電腦裡，這裡指的「內容」不是只有檔案，而是指所有整個專案的歷史紀錄、分支、標籤等內容都會複製一份下來。
@@ -28,25 +28,25 @@ $ npm install
 ```sh
 $ npm run build
 ```
-- 執行 __Expose__ 指令的 __token__ 來使用授權金鑰連結 expose 伺服器。
+- 執行 __Expose__ 指令的 __token__ 來使用授權金鑰連結 Expose 伺服器。
 ```sh
-$ expose token [你的授權金鑰]
+$ expose token [授權金鑰]
 ```
-- 執行 __Expose__ 指令的 __token__ 使用最近的可用 expose 伺服器。
+- 執行 __Expose__ 指令的 __token__ 使用最近的可用 Expose 伺服器。
 ```sh
-$ expose default-server [expose 伺服器名稱]
+$ expose default-server [Expose 伺服器名稱]
 ```
-- 執行 __Expose__ 指令的 __share__ 來使用隨機產生的 expose 子網域共享對路由 URL 的存取
+- 執行 __Expose__ 指令的 __share__ 來使用隨機產生的 Expose 子網域共享對路由網址的存取
 ```sh
-$ expose share [路由 URL] --subdomain=
+$ expose share [路由網址]
 ```
-- 在瀏覽器中輸入產生的 expose 子網域 URL 來訪問，例如：https://henry-lee.ap-1.sharedwithexpose.com。
+- 在瀏覽器中輸入產生的 Expose 子網域網址來訪問，例如：https://henry-lee.ap-1.sharedwithexpose.com。
 
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/kbOlOj9.png)
-> 共享路由 URL 存取
+![](https://i.imgur.com/XnBSOqL.png)
+> 共享路由網址存取
 
-![](https://i.imgur.com/0yXQQCI.png)
-> 在瀏覽器中輸入產生的 expose 子網域 URL 一下就能連上本機電腦，非常的實用
+![](https://i.imgur.com/CssDdpI.png)
+> 在瀏覽器中輸入產生的 Expose 子網域網址一下就能連上本機電腦，非常的實用

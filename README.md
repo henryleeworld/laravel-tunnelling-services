@@ -1,6 +1,6 @@
-# Laravel 11 隧道服務
+# Laravel 12 隧道服務
 
-引入 beyondcode 的 Expose 套件來擴增把本地主機（localhost）對應到 HTTPS 公開網域的服務，讓本機電腦的測試環境直接對外提供連線，以便進行測試與偵錯。
+引入 exposedev 的 expose 套件來擴增把本地主機（localhost）對應到 HTTPS 公開網域的服務，讓本機電腦的測試環境直接對外提供連線，以便進行測試與偵錯。
 
 ## 使用方式
 - 把整個專案複製一份到你的電腦裡，這裡指的「內容」不是只有檔案，而是指所有整個專案的歷史紀錄、分支、標籤等內容都會複製一份下來。
@@ -48,5 +48,5 @@ $ expose share [路由網址]
 ![](https://i.imgur.com/XnBSOqL.png)
 > 共享路由網址存取
 
-![](https://i.imgur.com/CssDdpI.png)
+![](https://i.imgur.com/UzMhYRx.png)
 > 在瀏覽器中輸入產生的 Expose 子網域網址一下就能連上本機電腦，非常的實用
